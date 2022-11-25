@@ -1,11 +1,13 @@
-import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo-dio.png';
-
 import { Button } from '../Button';
-
 import { Container, Wrapper, BuscarInputContainer, Input, Row, Menu, MenuRight, UserPicture} from './styles';
 
 const Header = ({autenticado}) => {
+  const navigate = useNavigate();
+  const handleLoginAccount = () => { navigate('/login') };
+  const handleRegisterAccount = () => { navigate('/register') };
+
   return (
     <Wrapper>
       <Container>
@@ -27,8 +29,8 @@ const Header = ({autenticado}) => {
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
-                <Button title="Entrar" />
-                <Button title="Cadastrar" />
+                <Button onClick={handleLoginAccount} title="Entrar" />
+                <Button onClick={handleRegisterAccount} title="Cadastrar" />
               </>)}
           </Row>
       </Container>
