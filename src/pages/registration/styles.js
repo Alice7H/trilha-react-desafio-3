@@ -72,6 +72,8 @@ export const LoginText = styled.p`
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
+  margin-top: 11px;
+
   span {
     color:#23DD7A;
     cursor: pointer;
