@@ -61,7 +61,7 @@ export const SubtitleLogin = styled.p`
 `
 
 
-export const EsqueciText  = styled.p`
+export const EsqueciText = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -69,9 +69,9 @@ export const EsqueciText  = styled.p`
     line-height: 19px;
 
     color: #E5E044;
-` 
+`
 
-export const CriarText =  styled.p`
+export const CriarText = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -79,4 +79,5 @@ export const CriarText =  styled.p`
     line-height: 19px;
 
     color: #23DD7A;
+    cursor: pointer;
 `

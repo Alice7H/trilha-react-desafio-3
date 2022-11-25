@@ -21,5 +21,13 @@ export const InputText = styled.input`
     flex:1;
     border: 0;
     height: 30px;
-    
+
+`
+
+export const ErrorText = styled.p`
+  color: #FF0020;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
 `
